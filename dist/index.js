@@ -39,8 +39,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         <div class=${this.hideMe?"":"bump"}>
             <button style="float: right;" @click=${()=>this.hideMe=!this.hideMe}>Second Ringer</button>
             <div class=${"container"+(this.hideMe?" hidden":"")}>
-            <!-- <audio id="ring" src = "https://kevsimps.github.io/disco-demo/assets/testAudio1-DaR21ZMN.mp3" type="audio/mp3" controls loop></audio> -->
-            <audio id="ring" src = "http://localhost:4173/ring.mp3" controls loop></audio>
+            <audio id="ring" src = "kevsimps.github.io/second-ringer/dist/ring.mp3" type="audio/mp3" controls loop></audio>
+            <!-- <audio id="ring" src = "http://localhost:4173/ring.mp3" controls loop></audio> -->
             <button @click=${()=>this.isActive=!this.isActive}>${this.isActive?"Enabled":"Disabled"}</button>
             <br>
             <select @change=${this._handleSelect}>
