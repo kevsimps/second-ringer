@@ -12,3 +12,10 @@
 5. Click the button labeled **Disabled** to toggle the widget to Enabled.
 6. Click the **Second Ringer** button to dismiss the dialog box.
 7. Make an inbound test call. 
+
+### UI
+Light Mode
+> ![alt text](image.png)
+
+Dark Mode
+> ![alt text](image-1.png)
